@@ -72,11 +72,11 @@ Their differences are mainly on the **FIT** side. Below we take `NumericFeatureB
 ## Modeler
 A class that handles from model training, fitting, to performance evaluation. A ``Modeler`` can do:
 
-    - Train the classifier to build a model (**Modeler.fit_and_transform_evaluate**)
-    - Insert additional validation datasets to evaluate the existed model (**Modeler.transform_and_evaluate**)
-    - Insert a set of predicted values to evaluate model performance without doing fit_and_transform (**Modeler.evaluate_without_clf**)
-    - Score datasets to get predicted values (**Modeler.simply_scoring**)
-    - Being collected by ``ModelerCollector`` for further model comparing and selection
+- Train the classifier to build a model (`Modeler.fit_and_transform_evaluate`)
+- Insert additional validation datasets to evaluate the existed model (`Modeler.transform_and_evaluate`)
+- Insert a set of predicted values to evaluate model performance without doing fit_and_transform (`Modeler.evaluate_without_clf`)
+- Score datasets to get predicted values (`Modeler.simply_scoring`)
+- Being collected by ``ModelerCollector`` for further model comparing and selection
     
 ---
 documentation updated: Dec. 30, 2021
